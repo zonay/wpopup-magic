@@ -1,0 +1,19 @@
+{
+  "name": "wp-popup-plugin",
+  "version": "1.0.0",
+  "description": "A simple popup plugin using a custom-built Tailwind CSS and jQuery.",
+  "main": "wpopup-magic/wpopup-magic.php",
+  "scripts": {
+    "build": "tailwindcss -i src/tailwind.css -o css/tailwind.min.css --minify",
+    "dev": "tailwindcss -i src/tailwind.css -o css/tailwind.css --watch"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
